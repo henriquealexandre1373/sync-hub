@@ -1,0 +1,16 @@
+node_modules
+dist
+.git
+.env
+*.log
+coverage
+.eslintrc*
+eslint.config.*
+.prettierrc*
+.prettierignore
+.editorconfig
+.vscode
+Dockerfile
+docker-compose.yml
+.dockerignore
+README.md
