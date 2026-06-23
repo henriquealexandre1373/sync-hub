@@ -1,0 +1,7 @@
+{
+  email {$ACME_EMAIL}
+}
+
+synchub.henrique-alexandre.me {
+  reverse_proxy app:3000
+}
