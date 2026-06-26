@@ -17,7 +17,7 @@ services:
       - synchub
 
   app:
-    build: .
+    image: ghcr.io/henriquealexandre1373/sync-hub:latest
     restart: unless-stopped
     environment:
       NODE_ENV: production
