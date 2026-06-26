@@ -6,7 +6,7 @@ export function buildApp() {
   const app = Fastify({ logger: true });
 
   app.get('/health', async () => {
-    return { status: 'ok' };
+    return { status: 'ok', version: 2 };
   });
 
   app.get('/ready', async (request, reply) => {
